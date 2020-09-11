@@ -130,7 +130,7 @@ h2 {
 	font-size: 5rem;
 	order: 2;
   line-height: 1.2;
-  color: var(--secondary-color);
+  color: var(--neutral-light);
   opacity: .7;
 }
 
@@ -263,6 +263,8 @@ h2 {
   height: 15rem;
   background: var(--placeholder-image);
   display: grid;
+  text-align: center;
+  padding: .5rem;
   place-items: center;
   color: var(--neutral-light);
   border-radius: .2rem .2rem 0 0;
@@ -287,17 +289,7 @@ h2 {
 	}
 
 	.work__wrapper {
-		flex-direction: column;
-		justify-content: center;
-	}
-
-	.work__item:not(:first-child) {
-		margin-left: 0;
-	}
-
-	.work__item {
-		width: 100%;
-		margin-bottom: 1.5rem;
+		grid-template-columns: 1fr;
 	}
 
 	.about-me__profile {
