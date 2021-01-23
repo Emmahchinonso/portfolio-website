@@ -7,6 +7,16 @@
 			src="https://kit.fontawesome.com/e2335626de.js"
 			crossorigin="anonymous"
 		></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap"
+			rel="stylesheet"
+		/>
 		<link
 			href="https://fonts.googleapis.com/css2?family=Oswald&family=Pacifico&display=swap"
 			rel="stylesheet"
@@ -31,7 +41,7 @@
 								href="mailto:aniebue.chinonso.g20@gmail.com"
 								target="_blank"
 								rel="noopener noreferrer"
-								class="nav-bar__link btn"
+								class="nav-bar__link btn btn--fancy"
 								>contact</a
 							>
 						</li>
@@ -48,8 +58,8 @@
 							<p>Hi, i'm Chinoso,</p>
 						</div>
 						<p>
-							I’m a frontend web developer, specializing in building exceptional
-							websites with clean user interfaces.
+							I’m a frontend web developer, specialized in building exceptional
+							websites with clean user interfaces and great user experience.
 						</p>
 						<a
 							href="mailto:aniebue.chinonso.g20@gmail.com"
@@ -64,22 +74,28 @@
 			<section class="about-me" id="about">
 				<div class="container">
 					<div class="about-me__content">
-						<h2>About Me</h2>
+						<h2>Nice to meet you</h2>
 						<p>
-							Hi there, i’m chinonso a front-end developer from Anambra,
-							Nigeria.
+							Hi there, i’m chinonso a front-end developer from Lagos, Nigeria.
 						</p>
 						<p>
-							Ever since being introduced to web development, i’ve always been
-							fascinated with User Interfaces and how best to build them. I
-							adhere to the components pattern when building websites or
-							webapps.
+							I've always loved building stuffs and ever since being introduced
+							to web development, i have channeled that passion into learning
+							frontend web development and implementing pixel perfect web User
+							Interfaces.
 						</p>
 						<p>
-							I've built projects ranging from landing pages to full blown
-							websites. I understand accessibility and always focus on structure
-							over design, responsive web design and semantic html when building
-							projects.
+							I've focused on learning how to write semantic html (even in
+							React) and structure content to improve accessibility.
+						</p>
+						<p>
+							I'm looking for a job where i can learn and grow, while making
+							meaningful contribution to great products.
+						</p>
+						<p>
+							I've built projects ranging from landing pages to web apps. I
+							always focus on content structure over design implementation and
+							ensuring responsiveness when building web projects.
 						</p>
 
 						<p>Technologies i work with :</p>
@@ -113,35 +129,94 @@
 			<section class="work" id="work">
 				<div class="container">
 					<h2>Stuff's I've Built</h2>
+					<p class="work__subtitle">
+						I'm always seeking ways to improve my skills. I read articles, take
+						frontend courses and build projects. I've read a lot about using
+						components and always try to reuse components where possible in my
+						web projects.
+					</p>
 					<div class="work__wrapper">
 						<div class="work-card">
 							<div class="placeholder">
-                <h3>Countries list web app</h3>
-              </div>
+								<h3>Countries list web app</h3>
+							</div>
 							<div class="work-card__content">
-                <p>Technologies: React, styled-components, webpack.</p>
-                <a href="https://github.com/Emmahchinonso/countries-list" class="work-card__link">Github</a> <a href="https://chinonso-countries-list.netlify.app/" class="work-card__link">Demo</a>
-              </div>
-            </div>
-            
-            <div class="work-card">
+								<p class="work-card__text">
+									This web app was built using the rest countries api, search
+									for any country or search by region. I implemented client-side
+									routing with react router, also reused logic by implementing
+									an api hook.
+								</p>
+								<p class="work-card__data">
+									Technologies: React, styled-components, webpack.
+								</p>
+                <div class="btn-wrap">
+                  <a
+									href="https://github.com/Emmahchinonso/countries-list"
+									class="work-card__link"
+									target="_blank"
+									>Github</a
+								>
+								<a
+									href="https://chinonso-countries-list.netlify.app/"
+									class="work-card__link"
+									target="_blank"
+									>Demo</a
+								>
+                </div>
+								
+							</div>
+						</div>
+
+						<div class="work-card">
 							<div class="placeholder">
-                <h3>A js calculator</h3>
-              </div>
+								<h3>A js calculator</h3>
+							</div>
 							<div class="work-card__content">
-                <p>Technologies: vanilla js, html, css.</p>
-                <a href="https://github.com/Emmahchinonso/mini-calculator-project" class="work-card__link">Github</a> <a href="https://chinonso-js-calculator.netlify.com/" class="work-card__link">Demo</a>
-              </div>
-            </div>
-            
-            <div class="work-card">
+                <p>I made this calculator to practice building app logic in a javasctipt application. I was able to cover some edge cases in the app.</p>
+								<p>Technologies: vanilla js, html, css.</p>
+                <div class="btn-wrap">
+                  <a
+									href="https://github.com/Emmahchinonso/mini-calculator-project"
+									class="work-card__link"
+									target="_blank"
+									>Github</a
+								>
+								<a
+									href="https://chinonso-js-calculator.netlify.com/"
+									target="_blank"
+									class="work-card__link"
+									>Demo</a
+								>
+                </div>
+								
+							</div>
+						</div>
+
+						<div class="work-card">
 							<div class="placeholder">
-                <h3>Js Form Validation</h3>
-              </div>
+								<h3>Js Form Validation</h3>
+							</div>
 							<div class="work-card__content">
-                <p>Technologies: vanilla js, html, css, responsive web design.</p>
-                <a href="https://github.com/Emmahchinonso/front_end-challenge3" class="work-card__link">Github</a> <a href="https://chinonso-frontend-challenge.netlify.com/" class="work-card__link">Demo</a>
-              </div>
+                <p>This was a great practice for learning about form validation on the client. I used the constraint Api and html input attributes to validate input values entered by the user.</p>
+								<p>
+									Technologies: vanilla js, html, css, responsive web design.
+								</p>
+								<div class="btn-wrap">
+									<a
+										href="https://github.com/Emmahchinonso/front_end-challenge3"
+										class="work-card__link"
+										target="_blank"
+										>Github</a
+									>
+									<a
+										href="https://chinonso-frontend-challenge.netlify.com/"
+										class="work-card__link"
+										target="_blank"
+										>Demo</a
+									>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
