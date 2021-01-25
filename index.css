@@ -335,6 +335,12 @@ h2 {
   letter-spacing: .1rem;
 }
 
+.more-works{
+  display: grid;
+  place-items: center;
+  padding: 1.5rem 0;
+}
+
 
 
 /* Media queries */
